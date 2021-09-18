@@ -458,6 +458,12 @@ header .content i {
   height: 8px;
   background: #5f8dee;
 }
+.container .skills-section .skills .skills-bar .bar .sql {
+  position: relative;
+  width: 25%;
+  height: 8px;
+  background: #5f8dee;
+}
 .container .skills-section .skills .skills-bar .bar .java {
   position: relative;
   width: 20%;
@@ -541,6 +547,17 @@ header .content i {
   font-size: 12px;
   border-radius: 3px;
 }
+.container .skills-section .skills .skills-bar .sql:before {
+  position: absolute;
+  content: '25%';
+  bottom: 20px;
+  left: 95%;
+  background: #000;
+  color: #fff;
+  padding: 3px 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
 .container .skills-section .skills .skills-bar .java:before {
   position: absolute;
   content: '20%';
@@ -607,6 +624,15 @@ header .content i {
   z-index: -1;
 }
 .container .skills-section .skills .skills-bar .php:after {
+  position: absolute;
+  content: '';
+  bottom: 10px;
+  left: 98%;
+  border: 10px solid transparent;
+  border-left-color: #000;
+  z-index: -1;
+}
+.container .skills-section .skills .skills-bar .sql:after {
   position: absolute;
   content: '';
   bottom: 10px;
