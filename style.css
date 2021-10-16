@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Aller',sans-serif;
+  font-family: 'ProductSans',sans-serif;
   text-decoration: none;
   outline: none;
 }
 @font-face {
-  font-family:'Aller';
-  src:url(Aller.ttf);
+  font-family:'ProductSans';
+  src:url(ProductSans.ttf);
 }
 html {
   scroll-behavior: smooth;
