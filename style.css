@@ -442,7 +442,7 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .bar .jquery {
   position: relative;
-  width: 55%;
+  width: 60%;
   height: 8px;
   background: #5f8dee;
 }
@@ -454,13 +454,13 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .bar .php {
   position: relative;
-  width: 15%;
+  width: 25%;
   height: 8px;
   background: #5f8dee;
 }
 .container .skills-section .skills .skills-bar .bar .sql {
   position: relative;
-  width: 25%;
+  width: 35%;
   height: 8px;
   background: #5f8dee;
 }
@@ -516,7 +516,7 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .jquery:before {
   position: absolute;
-  content: '55%';
+  content: '60%';
   bottom: 20px;
   left: 95%;
   background: #000;
@@ -538,7 +538,7 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .php:before {
   position: absolute;
-  content: '15%';
+  content: '25%';
   bottom: 20px;
   left: 95%;
   background: #000;
@@ -549,7 +549,7 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .sql:before {
   position: absolute;
-  content: '25%';
+  content: '35%';
   bottom: 20px;
   left: 95%;
   background: #000;
