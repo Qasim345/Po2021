@@ -471,6 +471,12 @@ header .content i {
   height: 8px;
   background: #5f8dee;
 }
+.container .skills-section .skills .skills-bar .bar .react {
+  position: relative;
+  width: 15%;
+  height: 8px;
+  background: #5f8dee;
+}
 .container .skills-section .skills .skills-bar .html:before {
   position: absolute;
   content: '90%';
@@ -570,6 +576,17 @@ header .content i {
   font-size: 12px;
   border-radius: 3px;
 }
+.container .skills-section .skills .skills-bar .react:before {
+  position: absolute;
+  content: '15%';
+  bottom: 20px;
+  left: 95%;
+  background: #000;
+  color: #fff;
+  padding: 3px 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
 .container .skills-section .skills .skills-bar .html:after {
   position: absolute;
   content: '';
@@ -643,6 +660,15 @@ header .content i {
   z-index: -1;
 }
 .container .skills-section .skills .skills-bar .java:after {
+  position: absolute;
+  content: '';
+  bottom: 10px;
+  left: 98%;
+  border: 10px solid transparent;
+  border-left-color: #000;
+  z-index: -1;
+}
+.container .skills-section .skills .skills-bar .react:after {
   position: absolute;
   content: '';
   bottom: 10px;
