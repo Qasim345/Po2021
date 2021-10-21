@@ -84,11 +84,11 @@ body {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
   z-index: 2;
 }
 .navbar .logo {
   color: #fff;
-  font-family: Arial;
 }
 .navbar .time{
   display: flex;
