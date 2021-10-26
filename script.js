@@ -54,25 +54,20 @@ const sr = ScrollReveal({
 ScrollReveal().reveal('.card', {
   duration: 2000,
   origin: 'bottom',
-  reset: true
 });
 ScrollReveal().reveal('.skills', {
   duration: 2000,
   origin: 'bottom',
-  reset: true
 })
 ScrollReveal().reveal('.box', {
   duration: 2000,
   origin: 'bottom',
-  reset: true
 })
 ScrollReveal().reveal('form', {
   duration: 2000,
   origin: 'bottom',
-  reset: true
 })
 ScrollReveal().reveal('.info', {
   duration: 2000,
   origin: 'bottom',
-  reset: false
 })
