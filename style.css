@@ -225,7 +225,7 @@ body {
   position: fixed;
   content: '';
   bottom: 20px;
-  left: -100%;
+  right: -100%;
   width: 40px;
   height: 40px;
   display: flex;
@@ -240,7 +240,7 @@ body {
   transition: 0.3s ease-in;
 }
 .top-btn.tb {
-  left: 20px;
+  right: 20px;
 }
 /* main header */
 header {
