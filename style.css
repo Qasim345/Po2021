@@ -776,6 +776,7 @@ header .content i {
 .contact form button {
   width: 100px;
   height: 44px;
+  margin-top: 5px;
   background: #5f8dee;
   color: #fff;
   font-weight: bold;
