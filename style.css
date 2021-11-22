@@ -115,6 +115,7 @@ body {
 .navbar .navBtn div {
   width: 30px;
   height: 2px;
+  right: 0;
   background: #fff;
   border-radius: 5px;
   transition: 0.3s;
