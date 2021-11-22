@@ -90,21 +90,6 @@ body {
 .navbar .logo {
   color: #fff;
 }
-.navbar .time{
-  display: flex;
-  color: #fff;
-  justify-content: space-between;
-}
-.navbar .time h3{
-  font-family: Monospace;
-}
-.navbar .time .h,.m,.s{
-  width: 20px;
-  text-align: center;
-}
-.navbar .time .am{
-  padding-left: 5px;
-}
 .navbar .navBtn {
   position: relative;
   width: 40px;
