@@ -103,8 +103,9 @@ body {
 .navbar .navBtn:before {
   position: absolute;
   content: '';
-  width: 20px;
+  width: 25px;
   height: 2px;
+  right: 0;
   background: #fff;
   border-radius: 5px;
   transform: translateY(-7px);
@@ -121,7 +122,8 @@ body {
 .navbar .navBtn:after {
   position: absolute;
   content: '';
-  width: 15px;
+  right: 0;
+  width: 20px;
   height: 2px;
   background: #fff;
   border-radius: 5px;
