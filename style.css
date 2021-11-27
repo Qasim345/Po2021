@@ -89,7 +89,7 @@ body {
   left: 0;
   width: 100%;
   padding: 12px 18px;
-  background: rgba(255,255,255,0.95);
+  background: rgba(255,255,255,0.92);
   backdrop-filter: blur(5px);
   display: flex;
   justify-content: space-between;
