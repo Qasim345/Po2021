@@ -447,6 +447,7 @@ header .content i {
   padding-top: 30px;
   border: 1px dotted #ddd;
   margin: 5px auto;
+  background: #fff;
 }
 .container .skills-section {
   width: 100%;
