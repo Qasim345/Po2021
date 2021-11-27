@@ -453,7 +453,7 @@ header .content i {
 }
 .container .skills-section .skills {
   width: 45%;
-  padding: 15px;
+  padding:0 15px;
 }
 .container .skills-section .skills .skills-bar {
   margin: 6% auto;
