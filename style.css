@@ -619,7 +619,7 @@ header .content i {
   font-size: 12px;
   border-radius: 3px;
 }
-.container .skills-section .skills .skills-bar .html:after {
+/*.container .skills-section .skills .skills-bar .html:after {
   position: absolute;
   content: '';
   bottom: 10px;
@@ -700,7 +700,81 @@ header .content i {
   border-left-color: #000;
   z-index: -1;
 }
-/* end skills section */
+ end skills section */
+ /* portfolio */
+     .swiper-container {
+      width: 100%;
+    }
+    .swiper-slide {
+      position: relative;
+      margin: 0 auto;
+      padding: 30px;
+      background: #a0bacd;
+      text-align: center;
+      font-size: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-reflect-box: below 1px linear-gradient(transparent,transparent,#0006);
+    }
+    .swiper-slide:before{
+      position: absolute;
+      content: 'Web Design';
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background:rgba(0,0,0,0.5);
+      opacity: 0;
+      visibility: hidden;
+    }
+    .swiper-slide:hover:before{
+      opacity: 1;
+      visibility: visible;
+      transition: 0.3s;
+    }
+    #slide1:before{
+      content: 'Sayafpoor OPD Clinic DBMS';
+    }
+    #slide2:before{
+      content: 'Sayafpoor OPD Clinic DBMS login form';
+    }
+    #slide3:before{
+      content: 'Nasim Brothers Shop DBMS';
+    }
+    #slide4:before{
+      content: 'Nasim Brothers Shop Admin panel';
+    }
+    #slide5:before{
+      content: 'Admin Login page UI Design';
+    }
+    #slide6:before{
+      content: 'School Management System UI Design';
+    }
+    #slide7:before{
+      content: 'Jamal Mubarez Music App';
+    }
+    #slide8:before{
+      content: 'PHP Tutorials Web App';
+    }
+    .swiper-slide img{
+      width: 100%;
+      object-fit: cover;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    }
+ /* // portfolio */
 .container .services-section {
   width: 100%;
   padding: 15px 5px;
