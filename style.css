@@ -963,12 +963,12 @@ header .content i {
   border: none;
 }
 .contact form .input input:focus{
-  border-color: #8695b5;
+  border-color: #5f8dee;
   transition: 0.3s;
 }
 .contact form .input input:focus ~ i,
 .contact form .input input:valid ~ i {
-  color: #8695b5;
+  color: #5f8dee;
   transition: 0.3s;
 }
 footer {
