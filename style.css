@@ -281,7 +281,7 @@ body {
 }
 @keyframes upd{
   100%{
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
 }
 /* main header */
