@@ -520,6 +520,12 @@ header .content i {
   height: 8px;
   background: #5f8dee;
 }
+.container .skills-section .skills .skills-bar .bar .sqlite {
+  position: relative;
+  width: 35%;
+  height: 8px;
+  background: #5f8dee;
+}
 .container .skills-section .skills .skills-bar .html:before {
   position: absolute;
   content: '90%';
@@ -611,6 +617,17 @@ header .content i {
 .container .skills-section .skills .skills-bar .java:before {
   position: absolute;
   content: '20%';
+  bottom: 20px;
+  left: 95%;
+  background: #000;
+  color: #fff;
+  padding: 3px 5px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.container .skills-section .skills .skills-bar .java:before {
+  position: absolute;
+  content: '35%';
   bottom: 20px;
   left: 95%;
   background: #000;
