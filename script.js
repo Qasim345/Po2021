@@ -2,8 +2,16 @@
 setTimeout(()=> {
   $(".loader-box").fadeOut(100);
 }, 2500);
+$("#btn").click(()=> {
+  $("#btn,#sidenav,.back").toggleClass("act");
+});
+document.onclick = ((e)=> {
+  if (e.target.id !== 'btn' && e.target.id !== 'sidenav') {
+    $("#btn,#sidenav,.back").removeClass("act");
+  }
+})
 // nav button
-$(".navBtn").click(()=> {
+/*$(".navBtn").click(()=> {
   $(".navBtn").toggleClass("act");
   $(".sidebar").toggleClass("active");
   $(".sidebar ul li a").toggleClass("animated fadeInUp");
@@ -15,7 +23,7 @@ document.onclick = ((e)=> {
     $(".navBtn").removeClass("act");
     $(".sidebar").removeClass("active");
   }
-})
+})*/
 
 // typed js plugin
 var typed = new Typed('#text', {
