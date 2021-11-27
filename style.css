@@ -526,7 +526,7 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .bar .sqlite {
   position: relative;
-  width: 35%;
+  width: 40%;
   height: 8px;
   background: #5f8dee;
 }
@@ -631,7 +631,7 @@ header .content i {
 }
 .container .skills-section .skills .skills-bar .sqlite:before {
   position: absolute;
-  content: '35%';
+  content: '40%';
   bottom: 20px;
   left: 95%;
   background: #000;
