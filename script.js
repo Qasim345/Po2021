@@ -4,6 +4,7 @@ setTimeout(()=> {
 }, 2500);
 $("#btn").click(()=> {
   $("#btn,#sidenav,.back").toggleClass("act");
+  $(".social").toggleClass("animated bounceInUp");
 });
 document.onclick = ((e)=> {
   if (e.target.id !== 'btn' && e.target.id !== 'sidenav') {
@@ -15,7 +16,6 @@ document.onclick = ((e)=> {
   $(".navBtn").toggleClass("act");
   $(".sidebar").toggleClass("active");
   $(".sidebar ul li a").toggleClass("animated fadeInUp");
-  $(".sidebar h3, .social").toggleClass("animated bounceInUp");
 });
 // click outside of navbar and button
 document.onclick = ((e)=> {
