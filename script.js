@@ -68,19 +68,19 @@ ScrollReveal().reveal('.card', {
 ScrollReveal().reveal('.skills', {
   duration: 2000,
   origin: 'bottom',
-});
+})
 
 ScrollReveal().reveal('.box', {
   duration: 2000,
   origin: 'bottom',
-});
+})
 
 ScrollReveal().reveal('form', {
   duration: 2000,
   origin: 'bottom',
-});
+})
 
 ScrollReveal().reveal('.info', {
   duration: 2000,
   origin: 'bottom',
-});
+})
