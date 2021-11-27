@@ -704,6 +704,7 @@ header .content i {
  /* portfolio */
      .swiper-container {
       width: 100%;
+      overflow: hidden;
     }
     .swiper-slide {
       position: relative;
@@ -725,6 +726,7 @@ header .content i {
       -webkit-align-items: center;
       align-items: center;
       -webkit-reflect-box: below 1px linear-gradient(transparent,transparent,#0006);
+      overflow: hidden;
     }
     .swiper-slide:before{
       position: absolute;
