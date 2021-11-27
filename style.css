@@ -912,7 +912,7 @@ header .content i {
 .container .contact form .input {
   width: 100%;
   height: 45px;
-  border-bottom: 2px solid #ddd;
+  border: 1px solid #8695b5;
   position: relative;
   margin: 20px 0;
   display: flex;
@@ -930,7 +930,7 @@ header .content i {
   border: none;
   caret-color: #5f8dee;
 }
-.contact form .input label {
+/*.contact form .input label {
   position: absolute;
   content: '';
   left: 50px;
@@ -939,12 +939,12 @@ header .content i {
   font-size: 20px;
   transition: 0.3s;
   pointer-events: none;
-}
+}*/
 .contact form textarea {
   width: 100%;
   height: 100px;
   border: none;
-  border: 2px solid #ddd;
+  border: 1px solid #8695b5;
   padding: 15px;
   font-size: 16px;
   margin: 10px 0;
