@@ -421,6 +421,7 @@ header .content i {
 }
 .container .about-section .card a {
   display: block;
+  width: 180px;
   padding: 10px 20px;
   background: #5f8dee;
   color: #fff;
