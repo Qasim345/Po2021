@@ -204,11 +204,11 @@ body {
   display: block;
   width: 100%;
   padding: 11px 20px;
-  font-size: 18px;
+  font-size: 17px;
   color: #576d82;
   font-weight: 600;
   letter-spacing: 1px;
-  border-bottom: 2px solid #768fa7;
+  border-bottom: 1.5px solid #768fa7;
 }
 #sidenav ul li a i{
   margin-right: 10px;
