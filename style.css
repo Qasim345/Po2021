@@ -421,12 +421,12 @@ header .content i {
 }
 .container .about-section .card a {
   display: block;
-  width: 180px;
-  padding: 10px 20px;
+  width: 150px;
+  padding: 12px 20px;
   background: #5f8dee;
   color: #fff;
   border-radius: 40px;
-  box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 5px 10px rgb(95,141,238,0.3);
   text-align: center;
 }
 /* end about section */
