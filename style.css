@@ -629,7 +629,7 @@ header .content i {
   font-size: 12px;
   border-radius: 3px;
 }
-.container .skills-section .skills .skills-bar .java:before {
+.container .skills-section .skills .skills-bar .sqlite:before {
   position: absolute;
   content: '35%';
   bottom: 20px;
