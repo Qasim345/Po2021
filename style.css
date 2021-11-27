@@ -379,13 +379,13 @@ header .content i {
   padding: 20px 0;
 }
 .container .about-section .card {
-  width: 94%;
+  width: 96%;
   margin: 0 auto;
   text-align: center;
   background: #fff;
   box-shadow: 0 0 20px #ddd;
   border-radius: 10px;
-  padding: 15px;
+  padding: 20px;
   padding-bottom: 30px;
 }
 .container .about-section .card img {
