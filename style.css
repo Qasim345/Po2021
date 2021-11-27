@@ -352,7 +352,7 @@ header .content i {
   margin: 5px auto;
   position: relative;
 }
-.container .title:before {
+.title:before {
   position: absolute;
   content: '';
   left: 0;
@@ -362,7 +362,7 @@ header .content i {
   background: #5f8dee;
   border-radius: 5px;
 }
-.container .title:after {
+.title:after {
   position: absolute;
   content: '';
   left: 50%;
