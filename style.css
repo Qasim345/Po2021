@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #fff;
+  background: #eef3f9;
   height: 100vh;
 }
 /* loader */
@@ -403,7 +403,7 @@ header .content i {
 }
 .container .about-section .card p {
   padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 .container .about-section .card  table {
   color: #5f8dee;
