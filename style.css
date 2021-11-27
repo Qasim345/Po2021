@@ -911,13 +911,13 @@ header .content i {
 }
 .container .contact form .input {
   position: relative;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .contact form .input i {
   position: absolute;
   top: 10px;
   left: 12px;
-  color: #8c8c8c;
+  color: #8695b5;
   font-size: 22px;
 }
 .contact form input {
