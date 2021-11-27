@@ -454,6 +454,7 @@ header .content i {
   margin: 3% auto;
   display: flex;
   justify-content: space-around;
+  background: #fff;
   align-items: center;
   overflow: hidden;
 }
@@ -837,6 +838,7 @@ header .content i {
   flex-wrap: wrap;
   align-items: center;
   overflow: hidden;
+  background: #fff;
 }
 .container .contact .info {
   width: 50%;
