@@ -274,7 +274,7 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
   z-index: 5;
   transition: 0.3s ease-in;
-  animation: upd 3s linear infinite;
+  animation: upd 2s linear infinite alternate;
 }
 .top-btn.tb {
   right: 20px;
