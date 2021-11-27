@@ -59,23 +59,28 @@ $("#up1,#up2,#up3,#up4").counterUp({
 const sr = ScrollReveal({
   distance: '100px'
 })
+
 ScrollReveal().reveal('.card', {
   duration: 2000,
   origin: 'bottom',
 });
+
 ScrollReveal().reveal('.skills', {
   duration: 2000,
   origin: 'bottom',
-})
+});
+
 ScrollReveal().reveal('.box', {
   duration: 2000,
   origin: 'bottom',
-})
+});
+
 ScrollReveal().reveal('form', {
   duration: 2000,
   origin: 'bottom',
-})
+});
+
 ScrollReveal().reveal('.info', {
   duration: 2000,
   origin: 'bottom',
-})
+});
