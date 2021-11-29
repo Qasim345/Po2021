@@ -40,8 +40,10 @@ var typed = new Typed('#text', {
 $(window).on('scroll', ()=> {
   if (window.scrollY > 250) {
     $(".top-btn").addClass("tb");
+    $(".navbar").addClass("active");
   } else {
-    $(".top-btn").removeClass("tb")
+    $(".top-btn").removeClass("tb");
+    $(".navbar").removeClass("active");
   }
 });
 // clicking top button
