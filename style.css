@@ -162,8 +162,6 @@ body {
   width: 100%;
 }
 .navbar.active #btn:before{
-  position: absolute;
-  content: '';
   background: #fff;
 }
 .navbar.active #btn div{
