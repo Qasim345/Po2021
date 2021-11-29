@@ -93,6 +93,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.4s;
   z-index: 2;
 }
 .navbar.active{
