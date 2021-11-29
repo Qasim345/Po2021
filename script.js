@@ -38,7 +38,7 @@ var typed = new Typed('#text', {
 })
 // showing back to top button
 $(window).on('scroll', ()=> {
-  if (window.scrollY > 250) {
+  if (window.scrollY > 230) {
     $(".top-btn").addClass("tb");
     $(".navbar").addClass("active");
   } else {
