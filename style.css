@@ -162,13 +162,13 @@ body {
   width: 100%;
 }
 .navbar.active #btn:before{
-  background: #fff;
+  background: #5f8dee;
 }
 .navbar.active #btn div{
-  background: #fff;
+  background: #5f8dee;
 }
 .navbar.active #btn:after{
-  background: #fff;
+  background: #5f8dee;
 }
 /* end of btn */
 #sidenav {
