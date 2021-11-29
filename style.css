@@ -161,7 +161,13 @@ body {
   transform: rotate(-45deg);
   width: 100%;
 }
-.navbar.active #btn:before,#btn div,#btn:after{
+.navbar.active #btn:before{
+  background: #fff;
+}
+.navbar.active #btn div{
+  background: #fff;
+}
+.navbar.active #btn:after{
   background: #fff;
 }
 /* end of btn */
