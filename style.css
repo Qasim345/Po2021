@@ -31,6 +31,7 @@ body {
     background:#000;
     z-index:50;
 }
+/*
 .loader{
     width:130px;
     height:130px;
@@ -68,6 +69,34 @@ body {
 @keyframes rot{
     100%{
         transform:rotate(360deg);
+    }
+}*/
+.dots{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.dots div{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background:#000;
+    margin:0 2px;
+}
+.dots .dot1{
+    animation:sc 0.6s linear infinite alternate;
+ }
+.dots .dot2{
+    animation:sc 0.6s linear infinite alternate;
+    animation-delay:0.2s;
+}
+.dots .dot3{
+    animation:sc 0.6s linear infinite alternate;
+    animation-delay:0.4s;
+}
+@keyframes sc{
+    100%{
+        transform:scale(0);
     }
 }
 .back {
