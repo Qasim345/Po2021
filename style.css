@@ -843,6 +843,12 @@ header .content i {
     #slide8:before{
       content: 'PHP Tutorials Web App';
     }
+    #slide9:before{
+      content: 'Resume builder form';
+    }
+    #slide10:before{
+      content: 'Generated Resume';
+    }
     .swiper-slide img{
       width: 100%;
       object-fit: cover;
