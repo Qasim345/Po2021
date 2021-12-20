@@ -54,7 +54,7 @@ $(".top-btn").click(()=> {
 });
 // counterUp
 $("#up1,#up2 ,#up3 ,#up4").counterUp({
-  delay: 80,
+  delay: 50,
   time: 5000
 })
 //ScrollReveal animation
