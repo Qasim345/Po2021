@@ -468,10 +468,10 @@ header .content i {
   display: block;
   width: 150px;
   padding: 12px 20px;
-  background: var(--main-color);
+  background: linear-gradient(180deg,var(--main-color),#1876f3);
   color: #fff;
   border-radius: 40px;
-  box-shadow: 0 5px 10px rgb(95,141,238,0.3);
+  box-shadow: 0 5px 10px rgb(24,118,243,0.3);
   text-align: center;
 }
 /* end about section */
