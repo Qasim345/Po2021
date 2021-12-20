@@ -74,12 +74,12 @@ ScrollReveal().reveal('.skills', {
 
 ScrollReveal().reveal('.box', {
   duration: 2000,
-  origin: 'bottom',
+  origin: 'right',
 })
 
 ScrollReveal().reveal('form', {
   duration: 2000,
-  origin: 'bottom',
+  origin: 'left',
 })
 
 ScrollReveal().reveal('.info', {
