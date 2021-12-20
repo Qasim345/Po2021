@@ -53,7 +53,7 @@ $(".top-btn").click(()=> {
   }, 'slow')
 });
 // counterUp
-$("#up1,#up2 ,#up3 ,#up4").counterUp({
+$("#up1, #up2 ,#up3 ,#up4").counterUp({
   delay: 50,
   time: 4000
 })
