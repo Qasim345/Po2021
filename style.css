@@ -426,7 +426,7 @@ header .content i {
   margin: 0 auto;
   text-align: center;
   background: #fff;
-  box-shadow: 0 0 20px #ddd;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
   border-radius: 10px;
   padding: 20px;
   padding-bottom: 30px;
@@ -435,8 +435,7 @@ header .content i {
   width: 300px;
   margin: 5% auto;
   text-align: center;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  border: 3px solid  #eef3f9;
+  border: 5px solid  #eef3f9;
   border-radius: 50%;
   z-index: 1;
 }
@@ -450,7 +449,7 @@ header .content i {
 }
 .container .about-section .card  table {
   color: #5f8dee;
-  font-weight: bold;
+  font-weight: 400;
   padding: 5px 10px;
   text-align: left;
 }
@@ -491,7 +490,7 @@ header .content i {
   border: 1px dotted #ddd;
   margin: 5px auto;
   background: #fff;
-  font-weight: 500;
+  font-weight: normal;
 }
 .container .skills-section {
   width: 100%;
