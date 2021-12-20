@@ -888,7 +888,7 @@ header .content i {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-around;
   overflow: hidden;
   background: #fff;
 }
