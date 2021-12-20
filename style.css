@@ -436,7 +436,7 @@ header .content i {
   margin: 5% auto;
   text-align: center;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  border: 2px solid  #fff;
+  border: 3px solid  #eef3f9;
   border-radius: 50%;
   z-index: 1;
 }
@@ -491,6 +491,7 @@ header .content i {
   border: 1px dotted #ddd;
   margin: 5px auto;
   background: #fff;
+  font-weight: 500;
 }
 .container .skills-section {
   width: 100%;
