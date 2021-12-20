@@ -1006,6 +1006,7 @@ footer {
   }
   .container .skills-section{
     display: block;
+    padding: 10px;
   }
   .container .skills-section .skills{
     width: 100%;
