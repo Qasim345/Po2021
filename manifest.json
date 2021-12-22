@@ -7,7 +7,7 @@
   "dispaly": "standalone",
   "icons": [
       {
-        "src": "Profile.jpg",
+        "src": "/Profile.jpg",
         "size": "1456/1456",
         "type": "image/jpg"
       }
