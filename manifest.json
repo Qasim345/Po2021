@@ -8,7 +8,7 @@
   "icons": [
       {
         "src": "Profile.jpg",
-        "sizes": "1456/1456",
+        "size": "1456/1456",
         "type": "image/jpg"
       }
     ]
