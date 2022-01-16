@@ -5,11 +5,9 @@
   "backgroud_color": "#fff",
   "theme_color": "#1876f3",
   "dispaly": "standalone",
-  "icons": [
-      {
-        "src": "/Profile.jpg",
-        "size": "1456/1456",
-        "type": "image/jpg"
-      }
-    ]
+  "icons": [{
+    "src": "img/logo.png",
+    "size": "343/343",
+    "type": "image/png"
+  }]
 }
