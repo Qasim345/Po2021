@@ -4,7 +4,7 @@
   "start_url": ".",
   "backgroud_color": "#fff",
   "theme_color": "#1876f3",
-  "dispaly": "standalone",
+  "display": "standalone",
   "icons": [{
     "src": "img/q-logo.png",
     "size": "343/343",
