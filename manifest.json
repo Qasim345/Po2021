@@ -6,7 +6,7 @@
   "theme_color": "#1876f3",
   "dispaly": "standalone",
   "icons": [{
-    "src": "img/logo.png",
+    "src": "img/q-logo.png",
     "size": "343/343",
     "type": "image/png"
   }]
